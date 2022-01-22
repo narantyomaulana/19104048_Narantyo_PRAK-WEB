@@ -18,14 +18,14 @@
         @endif
 
         <h4>Data Mahasiswa</h4>
-
+            <a href="{{ url('/mahasiswa/create') }}" class="btn btn-success">Tambah Data</a>
+        <br>
         <hr>
 
         <h5>
             Tabel Biasa
         </h5>
-         <a href="{{ url('/mahasiswa/create') }}" class="btn btn-success">Tambah Data</a>
-        <br>
+        
         <table class="table">
             <tr>
                 <td>
